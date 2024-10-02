@@ -1,0 +1,98 @@
+/* Background of the application inspired by soft iris shades */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa;  /* Light lavender background for softness */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container style for the form, with a more vivid violet border */
+.iris-form-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    text-align: center;
+    border: 2px solid #9370DB;  /* Medium purple border */
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels with Iris-inspired color */
+label {
+    font-weight: bold;
+    color: #6a5acd;  /* Slate blue for labels */
+}
+
+/* Input fields with violet border on focus */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border: 2px solid #7b68ee;  /* Violet border on focus */
+}
+
+/* Button styles with Iris-inspired shades */
+button {
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button with a purple background */
+button[type="submit"] {
+    background-color: #6a5acd;  /* Slate blue */
+}
+
+button[type="submit"]:hover {
+    background-color: #836fff;  /* Lighter purple */
+}
+
+/* Clear button with a complementary shade */
+button[type="button"] {
+    background-color: #ff6347;  /* Tomato red */
+}
+
+button[type="button"]:hover {
+    background-color: #ff4500;  /* Darker tomato */
+}
+
+/* Styling for the prediction result with Iris colors */
+.prediction-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5ff;  /* Very light purple */
+    border: 2px solid #6a5acd;  /* Slate blue border */
+    border-radius: 5px;
+    color: #483d8b;  /* Dark slate blue for text */
+    font-size: 18px;
+}
+
+/* Image of the Iris flower with some shadows */
+.iris-image {
+    margin-top: 20px;
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
